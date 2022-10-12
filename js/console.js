@@ -7,5 +7,8 @@ let KmPorLitro = 12.90;
 const distancia_percorrida_em_km = 208;
 
 let gasto_de_combustivel = (distancia_percorrida_em_km / KmPorLitro)*combustivel;
+let gasto_na_em_valor = (distancia_percorrida_em_km * combustivel)
 
 console.log(gasto_de_combustivel.toFixed(2));
+console.log(gasto_na_em_valor.toFixed(3))
+
