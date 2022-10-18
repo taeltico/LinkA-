@@ -4,7 +4,8 @@ const rafael = {
     Sexo: 'masc',
 
     apresentacao: function() {
-        console.log('meu nome é  ${this.nome}  e minha idade é ${this.idade} minha profissão é  ${this.formacao}');
+        this
+        console.log("meu nome é  ${this.nome}  e minha idade é ${this.idade} minha profissão é  ${this.formacao}");
     }
 };
 
@@ -15,5 +16,9 @@ console.log(rafael);
 rafael.alt = 1.75;
 rafael.formacao = 'programador';
 
-console.log(rafael)
+console.log()
+rafael.apresentacao();
 
+const atributo = 'idade';
+
+console.log(pessoa['nome']);
